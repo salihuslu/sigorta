@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insurelab Sigorta</title>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Boxicons CDN-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+  <body>
+    <div class="container">
+
+      <div class="top">
+        <p class="title">
+            <i class="bx bx-arrow-back"></i>
+            Teklifinizi Alın
+        </p>
+      </div>
+
+      <form action="#">
+        <div class="form-control">
+          <input type="text" required />
+
+          <label for="">
+            <i class="bx bx-user"></i>
+            Ad - Soyad
+          </label>
+        </div>
+
+        <div class="form-control">
+          <input type="text" id="tc" name="tc" class="form-cont" required />
+
+          <label for="tc">
+            <i class="bx bx-user"></i>
+            TC Kimlik Numarası
+          </label>
+        </div>
+
+        <div class="form-control">
+          <input type="date" required />
+
+          <label for="">
+            <i class="bx bx-user"></i>
+            Doğum Tarihi
+          </label>
+        </div>
+
+        <div class="form-control">
+          <input type="email" required />
+
+          <label for="">
+            <i class="bx bx-envelope"></i>
+            E Posta Adresi
+          </label>
+        </div>
+
+        <div class="form-control">
+          <input type="text" placeholder="0 5xx-xxx-xx-xx" required />
+
+          <label for="">
+            <i class="bx bxs-phone"></i>
+            Telefon Numaranız
+          </label>
+        </div>
+
+        <div class="form-control">
+          <input type="number" required />
+
+          <label for="">
+            <i class="bx bx-lock-alt"></i>
+            IMEI Numaranız
+                <div class="wrapper">
+                    <a href="#" class="icon info">
+                        <div class="tooltip">
+                            Telefonunuzun cihaz ayarları bölümünde Genel>Hakkında alanında bulabilir ve kopyalayabilirsiniz.
+                        </div>
+                        <span><i class='bx bxs-info-circle'></i></span>
+                    </a>
+
+                    
+                </div>
+                
+          </label>
+        </div>
+
+        <div class="submitBtn">
+          <button type="submit" class="submit">Teklif Oluştur</button>
+          <p class="flr">
+            Şu anda Insurelab Sigorta ve Reasürans Brokerlığı sayfasındasınız.
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
